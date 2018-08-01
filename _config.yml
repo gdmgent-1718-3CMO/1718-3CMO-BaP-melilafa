@@ -5,13 +5,12 @@
 # Site settings
 # ─────────────
 baseurl: /1718-3CMO-BaP-melilafa # the subpath of your site, e.g. /blog
-# baseurl: /
 # host   : 127.0.0.1
 # port   : 4000
 
 # Custom Site variables
 # ─────────────────────
-title: 1718 BaP CMO - Mélissa Lafarque
+title: Huisstijlgids De Kalmoes
 
 # Build settings
 # ──────────────
@@ -20,7 +19,7 @@ defaults:
 #    scope:
 #      path: "style-guide"
     values:
-      layout: horizontal
+      layout: vertical
 
 exclude:
   - Gemfile
