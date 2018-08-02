@@ -17,25 +17,26 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-weight: $font-weight-light;
     font-size: 4rem;
-    color: $color-grey-2;
+    color: #5db8cb;
 }
 h2 {
     font-weight: $font-weight-light;
     font-size: 2rem;
     margin: 2rem 0 1rem;
+    color: #509cac;
 }
 h3, h4, h5, h6 {
     font-size: 1rem;
     margin: 2rem 0 0;
+    color: #3c3c3b;
 }
 a {
     text-decoration: none;
-    color: $body-link;
-    border-bottom: dotted 1px $body-link;
+    color: #3c3c3b;
     &:hover{
-        color: $body-link;
+        color: #5db8cb;
         text-decoration: none;
-        border-bottom: solid 1px $body-link;
+        
     }
     &:active{
         background-color: $body-link;

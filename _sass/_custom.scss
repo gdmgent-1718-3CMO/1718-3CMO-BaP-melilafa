@@ -28,11 +28,11 @@ body {
 }
 
 footer {
-    background-color: $mycolor-2;
+    background-color: #5db8cb;
     color: $color-white;
     a {
         color: $color-white;
-        &:hover {
+        &:hover { color: #3c3c3b;
             
         }
     }
@@ -49,7 +49,7 @@ footer {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color:$mycolor-3; /* Set a background color */
+  background-color:#3c3c3b; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   //padding: 15px; /* Some padding */
@@ -58,6 +58,7 @@ footer {
   border-radius: 20px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
   &:hover {
-    background-color:$mycolor-5; 
+    background-color:#5db8cb; 
   }
 }
+

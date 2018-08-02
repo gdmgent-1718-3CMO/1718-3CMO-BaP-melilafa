@@ -1,6 +1,7 @@
  /* VERTICAL NAVIGATION BAR
  -------------------------------------------------- */
  @media (min-width: 768px) {
+     
     .custom-nav-ver {
         .collapse {
             display: block;
@@ -21,6 +22,7 @@
         li.active .dropdown-menu {
             position: static !important;
             display: block  !important;
+            background-color: #3c3c3b;
         }
      }
 
@@ -31,7 +33,7 @@
  #toc {
     margin-bottom: 1em;
     .nav {
-        display: block;
+        display: none;
     }
 
  } 
