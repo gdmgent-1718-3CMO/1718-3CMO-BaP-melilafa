@@ -18,12 +18,20 @@
         }
         .nav-item {
             width: 100%;
+            &:hover {
+                background-color: #5db8cb;
+            }
         }
         li.active .dropdown-menu {
             position: static !important;
-            display: block  !important;
-            background-color: #3c3c3b;
+            display: block  !important;         
+        } 
+
+        a.dropdown-item.active {
+            background-color: #5db8cb;
+           
         }
+       
      }
 
  }
