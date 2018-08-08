@@ -22,5 +22,5 @@
 - name: Downloadables
   description: Downloadables
   # folder: pages/downloadables
-  permalink: downloadables/
+  permalink: downloadables
   # fa-icon: icon-info
